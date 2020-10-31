@@ -1,0 +1,168 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: Verdana;
+	font-size: 0.8em;
+}
+
+/*
+ * Common Styles
+ */
+
+#header, #main, #footer{
+	padding: 20px;
+}
+
+#main{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#logo{
+	font-size: 32px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    background-color: yellow;
+}
+
+#menu{
+	list-style: none;
+    overflow: hidden;
+    background-color: turquoise;
+}
+
+#menu li{
+	float: left;
+}
+
+#menu li a{
+	padding: 10px 50px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #000000;	
+}
+#menu li a{
+	font-size: 16px;
+    font-weight: bold;
+}
+
+#menu li a:hover{
+	font-size: 18px;
+    font-weight: bold;
+    background-color: darkkhaki;
+    color: tomato;
+}
+
+#menu li:first-child a{
+	padding-left: 10px;
+}
+
+h3{
+    font-size: 16px;
+    text-align: center;
+    background-color: cyan;
+}
+
+#qno{
+    background-color: darkgreen;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+/*---- Login form ----*/
+#login-form,#signup-form{
+    width: 50%;
+}
+.aa-login-form input[type="text"],
+.aa-login-form input[type="password"],
+.aa-login-form input[type="email"] {
+  border: 1px solid #ccc;
+  font-size: 12px;
+  margin-bottom: 15px;
+  margin-left: 60px;
+  padding: 5px;
+  
+}
+.aa-login-form label{
+    font-size: 18px;
+}
+.aa-login-form p{
+    margin: 10px, 15px;
+}
+.aa-login-form input[type="submit"]{
+  font-size: 14px;
+  padding: 8px 15px;
+  margin-right: 5px;
+  margin-top: 10px;
+  float: left;
+}
+#home{
+    list-style-type: none;
+    font-size: 16px;
+}
+#home li{
+    margin-top: 15px;
+}
+#home li a{
+    text-decoration: none;
+    color: inherit;
+}
+.product{
+    float: left;
+    margin-bottom: 20px;
+    max-width: 280px;
+    padding: 20px;
+    text-align: center;
+}
+#product-101 a{
+    text-decoration: none;
+    color: inherit;
+}
+.product .submit{
+    background:none;
+    border:none;
+}
+.result{
+    width: 800px;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-top: 2%;
+    height: 550px;
+    font-size: 30px;
+}
+table{
+    margin-top: 8%;
+    margin-right: 30px;
+}
+td{
+    padding: 20px;
+}
+#next,#prev{
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 30px;
+    margin-top: 8%;
+    text-decoration: none;
+    color: inherit;
+    background-color: lightcoral;
+    border: 2px solid black;
+}
+#prev{
+    float: left;
+}
+#next{
+    float: right;
+    margin-right: 30px;
+}
+#msg{
+    background-color: red;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 800;
+}
